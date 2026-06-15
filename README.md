@@ -56,7 +56,6 @@ I've developed a variety of AI, automation, and computer vision tools. Here is a
 | [**STEPSON**](https://github.com/rafay-byte/STEPSON) | Python | An automated web scraping and data extraction tool for Asian e-commerce platforms with screenshot capture and distribution management. | ⭐ 0 |
 | [**SadTalker**](https://github.com/rafay-byte/SadTalker) | Python | Generate realistic talking head animations from a single portrait image and audio input using deep learning, with GFPGAN face enhancement. | ⭐ 0 |
 | [**INVOICE**](https://github.com/rafay-byte/INVOICE) | Python | An automated invoice parsing and processing system with name extraction and batch processing capabilities. | ⭐ 0 |
-| [**khizzer-fyp**](https://github.com/rafay-byte/khizzer-fyp) | Python | A Final Year Project implementing the Emuru autoregressive model for text-to-image generation and handwriting synthesis. | ⭐ 0 |
 | [**FRAME2GHIBLI**](https://github.com/rafay-byte/FRAME2GHIBLI) | Python | Transform video frames into Studio Ghibli-style artwork using AI models (MeinaMix), with frame extraction, generation, and video reconstruction. | ⭐ 0 |
 | [**FIRE-SMOKE**](https://github.com/rafay-byte/FIRE-SMOKE) | Unknown | FIRE+SMOKE — A Python project | ⭐ 0 |
 | [**fenrir**](https://github.com/rafay-byte/fenrir) | Python | A framework for fine-tuning and evaluating large language models using LoRA adapters, with comprehensive benchmarking and evaluation tools. | ⭐ 0 |
