@@ -46,10 +46,12 @@ I've developed a variety of AI, automation, and computer vision tools. Here is a
 
 | Project | Language | Description | Stars |
 | :--- | :---: | :--- | :---: |
-| [**TikTok-ViewBot-main**](https://github.com/rafay-byte/TikTok-ViewBot-main) | Python | An automated tool for TikTok view generation and social media metrics boosting with proxy support and configurable settings. | ⭐ 0 |
+| [**YTBOT**](https://github.com/rafay-byte/YTBOT) | Python | A YouTube automation bot for view generation and engagement boosting with proxy support and configurable parameters. | ⭐ 0 |
+| [**vision-stride-journal**](https://github.com/rafay-byte/vision-stride-journal) | TypeScript | A project by rafay-byte | ⭐ 0 |
 | [**URDU-OCR**](https://github.com/rafay-byte/URDU-OCR) | Python | A deep learning-based Optical Character Recognition system for Urdu script with CUDA-accelerated training and audio model integration. | ⭐ 0 |
-| [**SUGARCANE**](https://github.com/rafay-byte/SUGARCANE) | Python | A computer vision system for detecting and classifying sugarcane diseases using YOLO object detection with custom dataset processing. | ⭐ 0 |
 | [**Vinti-main-us**](https://github.com/rafay-byte/Vinti-main-us) | TypeScript | A full-stack web application with React frontend, Python backend, PostgreSQL database, and Docker containerization, including a web scrapper module. | ⭐ 0 |
+| [**TikTok-ViewBot-main**](https://github.com/rafay-byte/TikTok-ViewBot-main) | Python | An automated tool for TikTok view generation and social media metrics boosting with proxy support and configurable settings. | ⭐ 0 |
+| [**SUGARCANE**](https://github.com/rafay-byte/SUGARCANE) | Python | A computer vision system for detecting and classifying sugarcane diseases using YOLO object detection with custom dataset processing. | ⭐ 0 |
 | [**Semi_ref2sketch_code-main**](https://github.com/rafay-byte/Semi_ref2sketch_code-main) | Python | A deep learning model for converting reference images to sketch-style drawings using semi-supervised learning techniques. | ⭐ 0 |
 | [**STEPSON**](https://github.com/rafay-byte/STEPSON) | Python | An automated web scraping and data extraction tool for Asian e-commerce platforms with screenshot capture and distribution management. | ⭐ 0 |
 | [**SadTalker**](https://github.com/rafay-byte/SadTalker) | Python | Generate realistic talking head animations from a single portrait image and audio input using deep learning, with GFPGAN face enhancement. | ⭐ 0 |
@@ -59,12 +61,9 @@ I've developed a variety of AI, automation, and computer vision tools. Here is a
 | [**FIRE-SMOKE**](https://github.com/rafay-byte/FIRE-SMOKE) | Unknown | FIRE+SMOKE — A Python project | ⭐ 0 |
 | [**fenrir**](https://github.com/rafay-byte/fenrir) | Python | A framework for fine-tuning and evaluating large language models using LoRA adapters, with comprehensive benchmarking and evaluation tools. | ⭐ 0 |
 | [**EV-FINAL**](https://github.com/rafay-byte/EV-FINAL) | Python | EV(FINAL) — A Python project | ⭐ 0 |
-| [**EVFINAL**](https://github.com/rafay-byte/EVFINAL) | Unknown | A project by rafay-byte | ⭐ 0 |
-| [**EV**](https://github.com/rafay-byte/EV) | Python | An intelligent voice assistant named Eve with text-to-speech (Piper TTS), speech recognition, and conversational AI capabilities. | ⭐ 0 |
 | [**enhanced_unsupervised_segmentation**](https://github.com/rafay-byte/enhanced_unsupervised_segmentation) | Python | Advanced unsupervised image segmentation using contrastive learning and multiscale feature extraction with deep neural networks. | ⭐ 0 |
 | [**emailautoamation**](https://github.com/rafay-byte/emailautoamation) | Python | A Python-based email campaign automation system with integrated web data scraping using Selenium and ChromeDriver. | ⭐ 0 |
 | [**ECHO**](https://github.com/rafay-byte/ECHO) | Python | A feature-rich Discord bot powered by AI, with modular command handling, logging, and intelligent conversation capabilities. | ⭐ 0 |
-| [**DIA-1.6B**](https://github.com/rafay-byte/DIA-1.6B) | Unknown | Exploration and experimentation with the DIA 1.6B parameter language model for text generation and NLP tasks. | ⭐ 0 |
 | [**CALLER**](https://github.com/rafay-byte/CALLER) | Python | An intelligent call management and automation system built with Flask, featuring Google Cloud integration and structured data models. | ⭐ 0 |
 | [**client-THORDAN**](https://github.com/rafay-byte/client-THORDAN) | Python | client(THORDAN) — A Python project | ⭐ 0 |
 | [**bark**](https://github.com/rafay-byte/bark) | Jupyter Notebook | A transformer-based text-to-audio model capable of generating realistic speech, music, and sound effects. | ⭐ 0 |
