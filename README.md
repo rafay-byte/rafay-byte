@@ -223,19 +223,9 @@ Camera Stream ──▶ YOLOv8 Detection ──▶ Spatial Coordinates ──▶
 ## 📊 ENGINEERING ACTIVITY &amp; ANALYTICS
 
 <div align="center">
-
-<table border="0">
-<tr>
-<td align="center" valign="middle">
-  <img src="https://github-readme-stats.vercel.app/api?username=rafay-byte&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=8B949E" alt="GitHub Stats" width="410"/>
-</td>
-<td align="center" valign="middle">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rafay-byte&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=8B949E" alt="Top Languages" width="370"/>
-</td>
-</tr>
-</table>
-
+  <img src="assets/engineering-metrics.svg" alt="Engineering Activity &amp; Analytics" width="100%"/>
 </div>
+
 
 ---
 
