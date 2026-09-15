@@ -83,13 +83,13 @@
     
     <!-- Left: Name & Title -->
     <text x="20" y="32" fill="#ffffff" class="ui-text" font-size="20" font-weight="800" letter-spacing="0.5">ABDUL RAFAY KHALID</text>
-    <text x="20" y="54" fill="#58a6ff" class="ui-text" font-size="13" font-weight="700" letter-spacing="1">AI / ML ENGINEER &bull; AUTONOMOUS SYSTEMS &amp; VISION</text>
+    <text x="20" y="54" fill="#58a6ff" class="ui-text" font-size="13" font-weight="700" letter-spacing="1">AI / ML ENGINEER • AUTONOMOUS SYSTEMS &amp; VISION</text>
 
     <!-- Right: Focus & System metrics -->
     <g transform="translate(520, 16)">
       <rect width="292" height="46" rx="6" fill="#090d13" stroke="#21262d" stroke-width="1"/>
       <text x="12" y="20" fill="#8b949e" class="term-text" font-size="10" font-weight="600">SPECIALIZATION MATRIX:</text>
-      <text x="12" y="36" fill="#39c5bb" class="term-text" font-size="10.5" font-weight="700">LLMs &bull; VISION &bull; GENAI &bull; AGENTS</text>
+      <text x="12" y="36" fill="#39c5bb" class="term-text" font-size="10.5" font-weight="700">LLMs • VISION • GENAI • AGENTS</text>
     </g>
   </g>
 </svg>

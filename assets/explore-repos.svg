@@ -4,5 +4,5 @@
     .btn:hover { stroke: #58a6ff; }
   </style>
   <rect x="2" y="2" width="876" height="42" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1.2" class="btn"/>
-  <text x="440" y="27" fill="#58a6ff" class="mono" font-size="12" font-weight="700" letter-spacing="1" text-anchor="middle">[ &rarr; EXPLORE ALL 29 ACTIVE REPOSITORIES ON GITHUB &larr; ]</text>
+  <text x="440" y="27" fill="#58a6ff" class="mono" font-size="12" font-weight="700" letter-spacing="1" text-anchor="middle">[ → EXPLORE ALL 29 ACTIVE REPOSITORIES ON GITHUB ← ]</text>
 </svg>

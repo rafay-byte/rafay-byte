@@ -36,7 +36,7 @@
     <circle cx="16" cy="18" r="3.5" fill="#58a6ff"/>
     <text x="26" y="22" fill="#58a6ff" class="mono" font-size="12" font-weight="700">01. DATA</text>
     <text x="14" y="44" fill="#c9d1d9" class="sans" font-size="12" font-weight="600">Ingestion Feeds</text>
-    <text x="14" y="59" fill="#8b949e" class="mono" font-size="10.5">Options &bull; Video &bull; Text</text>
+    <text x="14" y="59" fill="#8b949e" class="mono" font-size="10.5">Options • Video • Text</text>
   </g>
 
   <!-- Connector 1 -->
@@ -52,7 +52,7 @@
     <circle cx="16" cy="18" r="3.5" fill="#bc8cff"/>
     <text x="26" y="22" fill="#bc8cff" class="mono" font-size="12" font-weight="700">02. MODELS</text>
     <text x="14" y="44" fill="#c9d1d9" class="sans" font-size="12" font-weight="600">Neural Engines</text>
-    <text x="14" y="59" fill="#8b949e" class="mono" font-size="10.5">LLMs &bull; YOLO &bull; Diffusion</text>
+    <text x="14" y="59" fill="#8b949e" class="mono" font-size="10.5">LLMs • YOLO • Diffusion</text>
   </g>
 
   <!-- Connector 2 -->
@@ -68,7 +68,7 @@
     <circle cx="16" cy="18" r="3.5" fill="#39c5bb"/>
     <text x="26" y="22" fill="#39c5bb" class="mono" font-size="12" font-weight="700">03. INTELLIGENCE</text>
     <text x="14" y="44" fill="#c9d1d9" class="sans" font-size="12" font-weight="600">Reasoning &amp; Fusion</text>
-    <text x="14" y="59" fill="#8b949e" class="mono" font-size="10.5">Multi-Agent &bull; ControlNet</text>
+    <text x="14" y="59" fill="#8b949e" class="mono" font-size="10.5">Multi-Agent • ControlNet</text>
   </g>
 
   <!-- Connector 3 -->
@@ -84,6 +84,6 @@
     <circle cx="16" cy="18" r="3.5" fill="#3fb950"/>
     <text x="26" y="22" fill="#3fb950" class="mono" font-size="12" font-weight="700">04. AI SYSTEMS</text>
     <text x="14" y="44" fill="#c9d1d9" class="sans" font-size="12" font-weight="600">Autonomous Apps</text>
-    <text x="14" y="59" fill="#8b949e" class="mono" font-size="10.5">AlphaGuard &bull; Avatar &bull; OCR</text>
+    <text x="14" y="59" fill="#8b949e" class="mono" font-size="10.5">AlphaGuard • Avatar • OCR</text>
   </g>
 </svg>

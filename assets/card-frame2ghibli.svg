@@ -51,6 +51,6 @@
   <line x1="24" y1="148" x2="406" y2="148" stroke="#21262d" stroke-width="1"/>
 
   <!-- Footer Link -->
-  <text x="24" y="168" fill="#e3b341" class="mono" font-size="11.5" font-weight="700">VIEW REPOSITORY &rarr;</text>
+  <text x="24" y="168" fill="#e3b341" class="mono" font-size="11.5" font-weight="700">VIEW REPOSITORY →</text>
   <text x="406" y="168" fill="#6e7681" class="mono" font-size="10.5" text-anchor="end">rafay-byte/FRAME2GHIBLI</text>
 </svg>

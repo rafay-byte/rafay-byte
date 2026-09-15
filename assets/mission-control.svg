@@ -43,7 +43,7 @@
     <!-- Item 1: Multi-Agent Systems -->
     <g transform="translate(0, 0)">
       <text x="0" y="12" fill="#c9d1d9" class="mono" font-size="11" font-weight="700">01. MULTI-AGENT SYSTEMS</text>
-      <text x="390" y="12" fill="#58a6ff" class="mono" font-size="10" font-weight="700" text-anchor="end">ALPHAGUARD &bull; MCP</text>
+      <text x="390" y="12" fill="#58a6ff" class="mono" font-size="10" font-weight="700" text-anchor="end">ALPHAGUARD • MCP</text>
       <rect y="18" width="390" height="8" rx="4" fill="#161b22"/>
       <rect y="18" width="370" height="8" rx="4" fill="url(#bar-blue)"/>
     </g>
@@ -51,7 +51,7 @@
     <!-- Item 2: LLMs & Fine-Tuning -->
     <g transform="translate(0, 42)">
       <text x="0" y="12" fill="#c9d1d9" class="mono" font-size="11" font-weight="700">02. LLM FINE-TUNING (PEFT)</text>
-      <text x="390" y="12" fill="#bc8cff" class="mono" font-size="10" font-weight="700" text-anchor="end">LORA &bull; QLORA &bull; FENRIR</text>
+      <text x="390" y="12" fill="#bc8cff" class="mono" font-size="10" font-weight="700" text-anchor="end">LORA • QLORA • FENRIR</text>
       <rect y="18" width="390" height="8" rx="4" fill="#161b22"/>
       <rect y="18" width="340" height="8" rx="4" fill="url(#bar-purple)"/>
     </g>
@@ -59,7 +59,7 @@
     <!-- Item 3: Deep Learning OCR -->
     <g transform="translate(0, 84)">
       <text x="0" y="12" fill="#c9d1d9" class="mono" font-size="11" font-weight="700">03. DEEP LEARNING OCR</text>
-      <text x="390" y="12" fill="#39c5bb" class="mono" font-size="10" font-weight="700" text-anchor="end">URDU-OCR &bull; PYTORCH</text>
+      <text x="390" y="12" fill="#39c5bb" class="mono" font-size="10" font-weight="700" text-anchor="end">URDU-OCR • PYTORCH</text>
       <rect y="18" width="390" height="8" rx="4" fill="#161b22"/>
       <rect y="18" width="320" height="8" rx="4" fill="url(#bar-cyan)"/>
     </g>
@@ -73,7 +73,7 @@
     <!-- Item 4: Computer Vision & Robotics -->
     <g transform="translate(0, 0)">
       <text x="0" y="12" fill="#c9d1d9" class="mono" font-size="11" font-weight="700">04. VISION &amp; AUTOMATION</text>
-      <text x="390" y="12" fill="#39c5bb" class="mono" font-size="10" font-weight="700" text-anchor="end">YOLOV8 &bull; PYQT5 &bull; CUTTER</text>
+      <text x="390" y="12" fill="#39c5bb" class="mono" font-size="10" font-weight="700" text-anchor="end">YOLOV8 • PYQT5 • CUTTER</text>
       <rect y="18" width="390" height="8" rx="4" fill="#161b22"/>
       <rect y="18" width="350" height="8" rx="4" fill="url(#bar-cyan)"/>
     </g>
@@ -81,7 +81,7 @@
     <!-- Item 5: Generative Diffusion -->
     <g transform="translate(0, 42)">
       <text x="0" y="12" fill="#c9d1d9" class="mono" font-size="11" font-weight="700">05. GENERATIVE DIFFUSION</text>
-      <text x="390" y="12" fill="#bc8cff" class="mono" font-size="10" font-weight="700" text-anchor="end">CONTROLNET &bull; GHIBLI</text>
+      <text x="390" y="12" fill="#bc8cff" class="mono" font-size="10" font-weight="700" text-anchor="end">CONTROLNET • GHIBLI</text>
       <rect y="18" width="390" height="8" rx="4" fill="#161b22"/>
       <rect y="18" width="310" height="8" rx="4" fill="url(#bar-purple)"/>
     </g>
@@ -89,7 +89,7 @@
     <!-- Item 6: Multimodal Talking Avatars -->
     <g transform="translate(0, 84)">
       <text x="0" y="12" fill="#c9d1d9" class="mono" font-size="11" font-weight="700">06. MULTIMODAL SYNTHESIS</text>
-      <text x="390" y="12" fill="#58a6ff" class="mono" font-size="10" font-weight="700" text-anchor="end">SADTALKER &bull; GFPGAN</text>
+      <text x="390" y="12" fill="#58a6ff" class="mono" font-size="10" font-weight="700" text-anchor="end">SADTALKER • GFPGAN</text>
       <rect y="18" width="390" height="8" rx="4" fill="#161b22"/>
       <rect y="18" width="290" height="8" rx="4" fill="url(#bar-blue)"/>
     </g>
