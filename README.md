@@ -89,7 +89,7 @@
 <h3 align="left">// GITHUB ANALYTICS</h3>
 
 <div align="center">
-  <img src="assets/github-stats.svg" alt="GitHub Analytics & Specializations" width="100%" />
+  <img src="assets/github-stats.svg?v=2" alt="GitHub Analytics & Specializations" width="100%" />
 </div>
 
 <br/>
