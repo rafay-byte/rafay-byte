@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 155" width="100%" height="155" fill="none">
+  <defs>
+    <linearGradient id="map-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0e131a"/>
+      <stop offset="100%" stop-color="#080c10"/>
+    </linearGradient>
+    <linearGradient id="glow-header" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="50%" stop-color="#bc8cff"/>
+      <stop offset="100%" stop-color="#3fb950"/>
+    </linearGradient>
+    <linearGradient id="block-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .flow-line { stroke-dasharray: 6, 4; animation: flow 1s linear infinite; }
+    @keyframes flow { from { stroke-dashoffset: 20; } to { stroke-dashoffset: 0; } }
+    .mono { font-family: 'SF Mono', 'Fira Code', 'Roboto Mono', Menlo, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+  </style>
+
+  <!-- Container Box -->
+  <rect x="2" y="2" width="876" height="151" rx="10" fill="url(#map-bg)" stroke="#30363d" stroke-width="1.5"/>
+  <rect x="2" y="2" width="876" height="3" rx="1.5" fill="url(#glow-header)"/>
+
+  <!-- Section Header -->
+  <text x="24" y="24" fill="#8b949e" class="mono" font-size="10.5" font-weight="700" letter-spacing="1.5">// NEURAL ARCHITECTURE FLOW // DATA TO PRODUCTION</text>
+
+  <!-- Stage 1: DATA -->
+  <g transform="translate(20, 36)">
+    <rect width="185" height="102" rx="8" fill="url(#block-bg)" stroke="#1f6feb" stroke-width="1.2"/>
+    <rect x="0" y="0" width="185" height="3" rx="1.5" fill="#58a6ff"/>
+    <circle cx="16" cy="18" r="4" fill="#58a6ff"/>
+    <text x="26" y="22" fill="#58a6ff" class="mono" font-size="11" font-weight="700">01. INGESTION</text>
+    <text x="14" y="44" fill="#c9d1d9" class="sans" font-size="12" font-weight="700">Raw Data Feeds</text>
+    <text x="14" y="62" fill="#8b949e" class="mono" font-size="10">&bull; Alpaca Options Chains</text>
+    <text x="14" y="76" fill="#8b949e" class="mono" font-size="10">&bull; Video Frame Streams</text>
+    <text x="14" y="90" fill="#8b949e" class="mono" font-size="10">&bull; Acoustic Speech WAV</text>
+  </g>
+
+  <!-- Flow 1 to 2 -->
+  <g transform="translate(205, 87)">
+    <line x1="0" y1="0" x2="26" y2="0" stroke="#58a6ff" stroke-width="2" class="flow-line"/>
+    <polygon points="26,-4 32,0 26,4" fill="#58a6ff"/>
+  </g>
+
+  <!-- Stage 2: AI MODELS -->
+  <g transform="translate(240, 36)">
+    <rect width="185" height="102" rx="8" fill="url(#block-bg)" stroke="#8957e5" stroke-width="1.2"/>
+    <rect x="0" y="0" width="185" height="3" rx="1.5" fill="#bc8cff"/>
+    <circle cx="16" cy="18" r="4" fill="#bc8cff"/>
+    <text x="26" y="22" fill="#bc8cff" class="mono" font-size="11" font-weight="700">02. MODEL ENGINE</text>
+    <text x="14" y="44" fill="#c9d1d9" class="sans" font-size="12" font-weight="700">Deep Learning</text>
+    <text x="14" y="62" fill="#8b949e" class="mono" font-size="10">&bull; TinyLlama + LoRA</text>
+    <text x="14" y="76" fill="#8b949e" class="mono" font-size="10">&bull; Ultralytics YOLOv8</text>
+    <text x="14" y="90" fill="#8b949e" class="mono" font-size="10">&bull; Stable Diffusion / Meina</text>
+  </g>
+
+  <!-- Flow 2 to 3 -->
+  <g transform="translate(425, 87)">
+    <line x1="0" y1="0" x2="26" y2="0" stroke="#bc8cff" stroke-width="2" class="flow-line"/>
+    <polygon points="26,-4 32,0 26,4" fill="#bc8cff"/>
+  </g>
+
+  <!-- Stage 3: INTELLIGENCE -->
+  <g transform="translate(460, 36)">
+    <rect width="185" height="102" rx="8" fill="url(#block-bg)" stroke="#1b7c83" stroke-width="1.2"/>
+    <rect x="0" y="0" width="185" height="3" rx="1.5" fill="#39c5bb"/>
+    <circle cx="16" cy="18" r="4" fill="#39c5bb"/>
+    <text x="26" y="22" fill="#39c5bb" class="mono" font-size="11" font-weight="700">03. INTELLIGENCE</text>
+    <text x="14" y="44" fill="#c9d1d9" class="sans" font-size="12" font-weight="700">Reasoning &amp; Fusion</text>
+    <text x="14" y="62" fill="#8b949e" class="mono" font-size="10">&bull; Multi-Agent Debate</text>
+    <text x="14" y="76" fill="#8b949e" class="mono" font-size="10">&bull; 3D Facial Landmark Map</text>
+    <text x="14" y="90" fill="#8b949e" class="mono" font-size="10">&bull; ControlNet Canny Edges</text>
+  </g>
+
+  <!-- Flow 3 to 4 -->
+  <g transform="translate(645, 87)">
+    <line x1="0" y1="0" x2="26" y2="0" stroke="#3fb950" stroke-width="2" class="flow-line"/>
+    <polygon points="26,-4 32,0 26,4" fill="#3fb950"/>
+  </g>
+
+  <!-- Stage 4: AI PRODUCTS -->
+  <g transform="translate(680, 36)">
+    <rect width="180" height="102" rx="8" fill="url(#block-bg)" stroke="#238636" stroke-width="1.5"/>
+    <rect x="0" y="0" width="180" height="3" rx="1.5" fill="#3fb950"/>
+    <circle cx="16" cy="18" r="4" fill="#3fb950"/>
+    <text x="26" y="22" fill="#3fb950" class="mono" font-size="11" font-weight="700">04. AI PRODUCTS</text>
+    <text x="14" y="44" fill="#c9d1d9" class="sans" font-size="12" font-weight="700">Production Systems</text>
+    <text x="14" y="62" fill="#8b949e" class="mono" font-size="10">&bull; AlphaGuard Platform</text>
+    <text x="14" y="76" fill="#8b949e" class="mono" font-size="10">&bull; AI Avatar Web Studio</text>
+    <text x="14" y="90" fill="#8b949e" class="mono" font-size="10">&bull; Sugarcane Robot Cutter</text>
+  </g>
+</svg>

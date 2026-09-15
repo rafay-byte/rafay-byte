@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 270" width="100%" height="270" fill="none">
+  <defs>
+    <linearGradient id="term-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0e131a"/>
+      <stop offset="100%" stop-color="#080c10"/>
+    </linearGradient>
+    <linearGradient id="term-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="35%" stop-color="#bc8cff"/>
+      <stop offset="70%" stop-color="#39c5bb"/>
+      <stop offset="100%" stop-color="#3fb950"/>
+    </linearGradient>
+    <linearGradient id="id-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+    @keyframes pulse-glow { 0%, 100% { stroke-opacity: 0.4; } 50% { stroke-opacity: 0.9; } }
+    .cursor { animation: blink 1s infinite; fill: #58a6ff; }
+    .term-text { font-family: 'SF Mono', 'Fira Code', 'Roboto Mono', Menlo, monospace; }
+    .ui-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+  </style>
+
+  <!-- Terminal Outer Shell -->
+  <rect x="2" y="2" width="876" height="266" rx="10" fill="url(#term-bg)" stroke="#30363d" stroke-width="1.5"/>
+  <rect x="2" y="2" width="876" height="3" rx="1.5" fill="url(#term-glow)"/>
+
+  <!-- Terminal Titlebar -->
+  <rect x="2" y="5" width="876" height="32" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+  <!-- Window Controls -->
+  <circle cx="22" cy="21" r="5.5" fill="#ff5f56"/>
+  <circle cx="39" cy="21" r="5.5" fill="#ffbd2e"/>
+  <circle cx="56" cy="21" r="5.5" fill="#27c93f"/>
+
+  <!-- Window Title -->
+  <text x="440" y="25" fill="#8b949e" class="term-text" font-size="11" font-weight="600" text-anchor="middle">terminal // rafay@ai-lab:~ (zsh)</text>
+
+  <!-- System Status Chip (Top Right) -->
+  <g transform="translate(740, 12)">
+    <rect width="120" height="18" rx="4" fill="#238636" fill-opacity="0.2" stroke="#238636" stroke-width="0.8"/>
+    <circle cx="10" cy="9" r="3.5" fill="#3fb950">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="19" y="12.5" fill="#3fb950" class="term-text" font-size="9" font-weight="700">STATUS: ONLINE</text>
+  </g>
+
+  <!-- Terminal Session Content -->
+  <g transform="translate(24, 52)">
+    <!-- Line 1 -->
+    <text x="0" y="16" fill="#8b949e" class="term-text" font-size="12">$</text>
+    <text x="16" y="16" fill="#c9d1d9" class="term-text" font-size="12">init_environment --profile="rafay-byte" --mode=production</text>
+
+    <!-- Line 2: Init logs -->
+    <text x="0" y="36" fill="#58a6ff" class="term-text" font-size="11.5">&gt; [CORE]</text>
+    <text x="65" y="36" fill="#8b949e" class="term-text" font-size="11.5">loading neural architectures... PyTorch, CUDA 12.x, Transformers</text>
+    <text x="800" y="36" fill="#3fb950" class="term-text" font-size="11" font-weight="700" text-anchor="end">[ OK ]</text>
+
+    <!-- Line 3 -->
+    <text x="0" y="54" fill="#bc8cff" class="term-text" font-size="11.5">&gt; [AGENTS]</text>
+    <text x="75" y="54" fill="#8b949e" class="term-text" font-size="11.5">mounting 8-agent committee &amp; deterministic risk engine (AlphaGuard)</text>
+    <text x="800" y="54" fill="#3fb950" class="term-text" font-size="11" font-weight="700" text-anchor="end">[ OK ]</text>
+
+    <!-- Line 4 -->
+    <text x="0" y="72" fill="#39c5bb" class="term-text" font-size="11.5">&gt; [VISION]</text>
+    <text x="75" y="72" fill="#8b949e" class="term-text" font-size="11.5">initializing YOLOv8 bud-cutter, Urdu OCR, ControlNet Ghibli pipeline</text>
+    <text x="800" y="72" fill="#3fb950" class="term-text" font-size="11" font-weight="700" text-anchor="end">[ OK ]</text>
+
+    <!-- Line 5: Prompt + Cursor -->
+    <text x="0" y="92" fill="#3fb950" class="term-text" font-size="12">ai-lab@rafay:~$</text>
+    <text x="125" y="92" fill="#ffffff" class="term-text" font-size="12">exec portfolio_showcase.sh</text>
+    <rect x="330" y="81" width="7" height="13" class="cursor"/>
+  </g>
+
+  <!-- Divider Line -->
+  <line x1="20" y1="162" x2="860" y2="162" stroke="#21262d" stroke-width="1.2"/>
+
+  <!-- Bottom Identity Panel (Visual Landing Page Banner) -->
+  <g transform="translate(24, 174)">
+    <rect width="832" height="78" rx="8" fill="url(#id-glow)" stroke="#30363d" stroke-width="1"/>
+    
+    <!-- Left: Name & Title -->
+    <text x="20" y="32" fill="#ffffff" class="ui-text" font-size="20" font-weight="800" letter-spacing="0.5">ABDUL RAFAY KHALID</text>
+    <text x="20" y="54" fill="#58a6ff" class="ui-text" font-size="13" font-weight="700" letter-spacing="1">AI / ML ENGINEER &bull; AUTONOMOUS SYSTEMS &amp; VISION</text>
+
+    <!-- Right: Focus & System metrics -->
+    <g transform="translate(520, 16)">
+      <rect width="292" height="46" rx="6" fill="#090d13" stroke="#21262d" stroke-width="1"/>
+      <text x="12" y="20" fill="#8b949e" class="term-text" font-size="10" font-weight="600">SPECIALIZATION MATRIX:</text>
+      <text x="12" y="36" fill="#39c5bb" class="term-text" font-size="10.5" font-weight="700">LLMs &bull; VISION &bull; GENAI &bull; AGENTS</text>
+    </g>
+  </g>
+</svg>

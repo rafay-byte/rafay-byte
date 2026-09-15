@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 185" width="100%" height="185" fill="none">
+  <defs>
+    <linearGradient id="ctrl-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0e131a"/>
+      <stop offset="100%" stop-color="#080c10"/>
+    </linearGradient>
+    <linearGradient id="ctrl-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#39c5bb"/>
+      <stop offset="50%" stop-color="#58a6ff"/>
+      <stop offset="100%" stop-color="#bc8cff"/>
+    </linearGradient>
+    <linearGradient id="bar-blue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1f6feb"/>
+      <stop offset="100%" stop-color="#58a6ff"/>
+    </linearGradient>
+    <linearGradient id="bar-cyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1b7c83"/>
+      <stop offset="100%" stop-color="#39c5bb"/>
+    </linearGradient>
+    <linearGradient id="bar-purple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8957e5"/>
+      <stop offset="100%" stop-color="#bc8cff"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: 'SF Mono', 'Fira Code', 'Roboto Mono', Menlo, monospace; }
+  </style>
+
+  <!-- Container Box -->
+  <rect x="2" y="2" width="876" height="181" rx="10" fill="url(#ctrl-bg)" stroke="#30363d" stroke-width="1.5"/>
+  <rect x="2" y="2" width="876" height="3" rx="1.5" fill="url(#ctrl-glow)"/>
+
+  <!-- Header -->
+  <g transform="translate(24, 22)">
+    <circle cx="6" cy="6" r="4" fill="#3fb950"/>
+    <text x="18" y="9.5" fill="#8b949e" class="mono" font-size="10.5" font-weight="700" letter-spacing="1.5">// MISSION CONTROL // CORE SPECIALIZATION CHANNELS</text>
+    <text x="830" y="9.5" fill="#39c5bb" class="mono" font-size="10" font-weight="700" text-anchor="end">SYS: AUTONOMOUS</text>
+  </g>
+
+  <!-- Column 1: Left 3 Channels -->
+  <g transform="translate(24, 46)">
+    <!-- Item 1: Multi-Agent Systems -->
+    <g transform="translate(0, 0)">
+      <text x="0" y="12" fill="#c9d1d9" class="mono" font-size="11" font-weight="700">01. MULTI-AGENT SYSTEMS</text>
+      <text x="390" y="12" fill="#58a6ff" class="mono" font-size="10" font-weight="700" text-anchor="end">ALPHAGUARD &bull; MCP</text>
+      <rect y="18" width="390" height="8" rx="4" fill="#161b22"/>
+      <rect y="18" width="370" height="8" rx="4" fill="url(#bar-blue)"/>
+    </g>
+
+    <!-- Item 2: LLMs & Fine-Tuning -->
+    <g transform="translate(0, 42)">
+      <text x="0" y="12" fill="#c9d1d9" class="mono" font-size="11" font-weight="700">02. LLM FINE-TUNING (PEFT)</text>
+      <text x="390" y="12" fill="#bc8cff" class="mono" font-size="10" font-weight="700" text-anchor="end">LORA &bull; QLORA &bull; FENRIR</text>
+      <rect y="18" width="390" height="8" rx="4" fill="#161b22"/>
+      <rect y="18" width="340" height="8" rx="4" fill="url(#bar-purple)"/>
+    </g>
+
+    <!-- Item 3: Deep Learning OCR -->
+    <g transform="translate(0, 84)">
+      <text x="0" y="12" fill="#c9d1d9" class="mono" font-size="11" font-weight="700">03. DEEP LEARNING OCR</text>
+      <text x="390" y="12" fill="#39c5bb" class="mono" font-size="10" font-weight="700" text-anchor="end">URDU-OCR &bull; PYTORCH</text>
+      <rect y="18" width="390" height="8" rx="4" fill="#161b22"/>
+      <rect y="18" width="320" height="8" rx="4" fill="url(#bar-cyan)"/>
+    </g>
+  </g>
+
+  <!-- Divider -->
+  <line x1="440" y1="46" x2="440" y2="165" stroke="#21262d" stroke-width="1.2"/>
+
+  <!-- Column 2: Right 3 Channels -->
+  <g transform="translate(460, 46)">
+    <!-- Item 4: Computer Vision & Robotics -->
+    <g transform="translate(0, 0)">
+      <text x="0" y="12" fill="#c9d1d9" class="mono" font-size="11" font-weight="700">04. VISION &amp; AUTOMATION</text>
+      <text x="390" y="12" fill="#39c5bb" class="mono" font-size="10" font-weight="700" text-anchor="end">YOLOV8 &bull; PYQT5 &bull; CUTTER</text>
+      <rect y="18" width="390" height="8" rx="4" fill="#161b22"/>
+      <rect y="18" width="350" height="8" rx="4" fill="url(#bar-cyan)"/>
+    </g>
+
+    <!-- Item 5: Generative Diffusion -->
+    <g transform="translate(0, 42)">
+      <text x="0" y="12" fill="#c9d1d9" class="mono" font-size="11" font-weight="700">05. GENERATIVE DIFFUSION</text>
+      <text x="390" y="12" fill="#bc8cff" class="mono" font-size="10" font-weight="700" text-anchor="end">CONTROLNET &bull; GHIBLI</text>
+      <rect y="18" width="390" height="8" rx="4" fill="#161b22"/>
+      <rect y="18" width="310" height="8" rx="4" fill="url(#bar-purple)"/>
+    </g>
+
+    <!-- Item 6: Multimodal Talking Avatars -->
+    <g transform="translate(0, 84)">
+      <text x="0" y="12" fill="#c9d1d9" class="mono" font-size="11" font-weight="700">06. MULTIMODAL SYNTHESIS</text>
+      <text x="390" y="12" fill="#58a6ff" class="mono" font-size="10" font-weight="700" text-anchor="end">SADTALKER &bull; GFPGAN</text>
+      <rect y="18" width="390" height="8" rx="4" fill="#161b22"/>
+      <rect y="18" width="290" height="8" rx="4" fill="url(#bar-blue)"/>
+    </g>
+  </g>
+</svg>
