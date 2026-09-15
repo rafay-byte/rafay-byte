@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 135" width="100%" height="135" fill="none">
+  <defs>
+    <linearGradient id="time-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="30%" stop-color="#39c5bb"/>
+      <stop offset="60%" stop-color="#bc8cff"/>
+      <stop offset="100%" stop-color="#3fb950"/>
+    </linearGradient>
+    <linearGradient id="time-card" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Container -->
+  <rect x="2" y="2" width="846" height="131" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1.2"/>
+  <rect x="2" y="2" width="846" height="3" rx="1.5" fill="url(#time-grad)"/>
+
+  <!-- Milestone 1 -->
+  <g transform="translate(25, 22)">
+    <circle cx="12" cy="12" r="7" fill="#1f6feb" fill-opacity="0.3" stroke="#58a6ff" stroke-width="2"/>
+    <circle cx="12" cy="12" r="3" fill="#58a6ff"/>
+    <text x="26" y="16" fill="#58a6ff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700">FOUNDATIONS</text>
+    <text x="0" y="38" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">Core Python &amp; Scrapers</text>
+    <text x="0" y="52" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5">Data ETL &amp; Automation</text>
+  </g>
+
+  <!-- Line 1 to 2 -->
+  <line x1="165" y1="34" x2="190" y2="34" stroke="#58a6ff" stroke-width="1.5" stroke-dasharray="2,2"/>
+
+  <!-- Milestone 2 -->
+  <g transform="translate(195, 22)">
+    <circle cx="12" cy="12" r="7" fill="#1b7c83" fill-opacity="0.3" stroke="#39c5bb" stroke-width="2"/>
+    <circle cx="12" cy="12" r="3" fill="#39c5bb"/>
+    <text x="26" y="16" fill="#39c5bb" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700">COMPUTER VISION</text>
+    <text x="0" y="38" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">Urdu OCR &amp; CUDA</text>
+    <text x="0" y="52" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5">Custom script vocabulary</text>
+  </g>
+
+  <!-- Line 2 to 3 -->
+  <line x1="335" y1="34" x2="360" y2="34" stroke="#39c5bb" stroke-width="1.5" stroke-dasharray="2,2"/>
+
+  <!-- Milestone 3 -->
+  <g transform="translate(365, 22)">
+    <circle cx="12" cy="12" r="7" fill="#8957e5" fill-opacity="0.3" stroke="#bc8cff" stroke-width="2"/>
+    <circle cx="12" cy="12" r="3" fill="#bc8cff"/>
+    <text x="26" y="16" fill="#bc8cff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700">GENERATIVE AI</text>
+    <text x="0" y="38" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">Diffusion &amp; Talking Head</text>
+    <text x="0" y="52" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5">ControlNet, SadTalker, GFPGAN</text>
+  </g>
+
+  <!-- Line 3 to 4 -->
+  <line x1="510" y1="34" x2="535" y2="34" stroke="#bc8cff" stroke-width="1.5" stroke-dasharray="2,2"/>
+
+  <!-- Milestone 4 -->
+  <g transform="translate(540, 22)">
+    <circle cx="12" cy="12" r="7" fill="#8957e5" fill-opacity="0.3" stroke="#d29922" stroke-width="2"/>
+    <circle cx="12" cy="12" r="3" fill="#d29922"/>
+    <text x="26" y="16" fill="#d29922" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700">LLM FINE-TUNING</text>
+    <text x="0" y="38" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">LoRA &amp; QLoRA Benchmarks</text>
+    <text x="0" y="52" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5">TinyLlama PEFT (Fenrir)</text>
+  </g>
+
+  <!-- Line 4 to 5 -->
+  <line x1="680" y1="34" x2="705" y2="34" stroke="#3fb950" stroke-width="1.5" stroke-dasharray="2,2"/>
+
+  <!-- Milestone 5 -->
+  <g transform="translate(710, 22)">
+    <circle cx="12" cy="12" r="7" fill="#238636" fill-opacity="0.3" stroke="#3fb950" stroke-width="2"/>
+    <circle cx="12" cy="12" r="3" fill="#3fb950"/>
+    <text x="26" y="16" fill="#3fb950" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700">MULTI-AGENT AI</text>
+    <text x="0" y="38" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">Investment Committee</text>
+    <text x="0" y="52" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5">AlphaGuard Options &amp; Risk</text>
+  </g>
+</svg>

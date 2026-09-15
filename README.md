@@ -1,58 +1,128 @@
 <div align="center">
 
 <!-- HERO SECTION -->
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=32&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=80&lines=Abdul+Rafay+Khalid" alt="Name" />
+<a href="https://github.com/rafay-byte">
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=34&duration=2500&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=750&height=90&lines=ABDUL+RAFAY+KHALID;AI+%2F+ML+ENGINEER;Building+Intelligent+Autonomous+Systems" alt="Abdul Rafay Khalid - AI / ML Engineer" />
+</a>
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=20&duration=3000&pause=1500&color=8B949E&center=true&vCenter=true&repeat=true&width=600&height=35&lines=AI%2FML+Engineer;Building+Intelligent+Systems+with+LLMs+%26+Computer+Vision;Multi-Agent+AI+%7C+Generative+AI+%7C+Deep+Learning" alt="Typing SVG" />
+<p align="center">
+  <b>Architecting Production AI Systems Across LLMs, Computer Vision &amp; Generative Intelligence</b>
+</p>
 
-<br/>
-
-`LLMs` · `Computer Vision` · `Generative AI` · `Multi-Agent Systems` · `Deep Learning`
-
-<br/>
-
-<a href="https://github.com/rafay-byte"><img src="https://img.shields.io/badge/GitHub-rafay--byte-181717?style=flat&logo=github" alt="GitHub"/></a>
+<p align="center">
+  <a href="https://github.com/rafay-byte"><img src="https://img.shields.io/badge/GitHub-rafay--byte-181717?style=for-the-badge&logo=github" alt="GitHub"/></a>
+  <img src="https://img.shields.io/badge/Focus-Multi--Agent_AI_%E2%80%A2_LLMs_%E2%80%A2_Vision-1f6feb?style=for-the-badge" alt="Focus"/>
+  <img src="https://img.shields.io/badge/Compute-CUDA_Accelerated-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="CUDA"/>
+  <img src="https://img.shields.io/badge/Status-Actively_Building-3fb950?style=for-the-badge" alt="Status"/>
+</p>
 
 </div>
 
-<br/>
+---
 
-## About
+### ⚡ AI Engineering Lifecycle
 
-AI/ML Engineer focused on building production-ready intelligent systems. I work across the full AI stack — from fine-tuning large language models with LoRA adapters to training YOLO-based computer vision pipelines and building multi-agent architectures that reason, debate, and execute autonomously.
-
-My work spans **LLM fine-tuning & evaluation**, **computer vision** (OCR, object detection, segmentation), **generative AI** (style transfer, talking head synthesis, diffusion models), and **multi-agent AI systems** with real-world API integrations.
+<div align="center">
+  <img src="assets/ai-workflow.svg" alt="End-to-End AI Engineering Lifecycle" width="100%"/>
+</div>
 
 ---
 
-## Currently Building
+## 🔬 Currently Building: Multi-Agent AI
 
-🔬 **Multi-Agent AI Systems** — Designing autonomous agent architectures where multiple LLM-powered agents collaborate through structured debate, risk analysis, and decision-making pipelines. Recent work: [AlphaGuard](https://github.com/rafay-byte/alphaguard) — an 8-agent AI Investment Committee with deterministic risk controls and live trading execution.
+<div align="center">
+
+### 🛡️ [AlphaGuard AI](https://github.com/rafay-byte/alphaguard) — Autonomous 8-Agent Investment Committee
+
+</div>
+
+AlphaGuard is an autonomous multi-agent options trading platform built for the Alpaca AI Trading Agents Hackathon. Instead of naive LLM decision-making, it implements an **8-agent institutional committee** where specialized agents conduct research, perform adversarial bull-vs-bear thesis debates, and propose trades. Crucially, **zero unrestricted trading authority is given to the LLM** — all orders must pass a hardcoded, deterministic Python risk engine before routing to Alpaca.
+
+<div align="center">
+  <img src="assets/alphaguard-architecture.svg" alt="AlphaGuard Architecture" width="100%"/>
+</div>
+
+<p align="center">
+  <code>Python</code> &bull; <code>Multi-Agent Architecture</code> &bull; <code>Model Context Protocol (MCP)</code> &bull; <code>Alpaca Options API</code> &bull; <code>Flask</code> &bull; <code>Deterministic Risk</code>
+</p>
+
+<div align="center">
+  <a href="https://github.com/rafay-byte/alphaguard"><b>Explore AlphaGuard Repository &rarr;</b></a>
+</div>
 
 ---
 
-## Featured Projects
+## 🚀 Visual Project Showcase
 
-<table>
+<table width="100%">
 <tr>
 <td width="50%" valign="top">
 
-### 🛡️ [AlphaGuard](https://github.com/rafay-byte/alphaguard)
-**Multi-Agent AI Trading Platform**
+### 🎬 [Frame2Ghibli](https://github.com/rafay-byte/FRAME2GHIBLI)
+**Video-to-Ghibli Style Transfer Pipeline**
 
-8-agent AI Investment Committee that researches markets, debates trade thesis (bull vs. bear), enforces deterministic risk controls, and executes options trades via Alpaca API.
+Converts raw video into Studio Ghibli-style anime frames using **ControlNet Canny** adaptive edge conditioning and the **MeinaMix V11** diffusion checkpoint, with CUDA-accelerated watermark removal and video reassembly.
 
-`Python` `LLMs` `Multi-Agent` `Flask` `Alpaca API` `MCP`
+<div align="center">
+  <img src="assets/frame2ghibli_output.jpg" alt="Frame2Ghibli Visual Output" width="100%"/>
+</div>
+
+```
+Video ──▶ Adaptive Canny ──▶ ControlNet + MeinaMix ──▶ Stylized Video
+```
+
+<p align="center">
+  <code>PyTorch</code> &bull; <code>Diffusers</code> &bull; <code>ControlNet</code> &bull; <code>CUDA</code> &bull; <code>OpenCV</code>
+</p>
+
+<div align="center">
+  <a href="https://github.com/rafay-byte/FRAME2GHIBLI"><b>View Frame2Ghibli &rarr;</b></a>
+</div>
 
 </td>
 <td width="50%" valign="top">
 
-### 🐺 [Fenrir](https://github.com/rafay-byte/fenrir)
-**LLM Fine-Tuning & Evaluation Framework**
+### 🎭 [SadTalker / AI Avatar Studio](https://github.com/rafay-byte/SadTalker)
+**Audio-Driven Talking Head Animation**
 
-Framework for fine-tuning large language models using LoRA adapters with comprehensive benchmarking — compares base vs. fine-tuned model performance across evaluation suites.
+Multimodal generative AI system synthesizing realistic facial animations from a single portrait and audio track. Features 3D motion coefficients, **GFPGAN face restoration**, and full Streamlit / Gradio web applications.
 
-`Python` `PyTorch` `Transformers` `LoRA` `PEFT`
+<div align="center">
+  <img src="assets/sadtalker_ui.jpg" alt="SadTalker Streamlit UI" width="100%"/>
+</div>
+
+```
+Portrait + Audio ──▶ 3D Motion Coeffs ──▶ GFPGAN Restoration ──▶ Video
+```
+
+<p align="center">
+  <code>PyTorch</code> &bull; <code>GFPGAN</code> &bull; <code>Streamlit</code> &bull; <code>Wav2Vec</code> &bull; <code>Gradio</code>
+</p>
+
+<div align="center">
+  <a href="https://github.com/rafay-byte/SadTalker"><b>View SadTalker &rarr;</b></a>
+</div>
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+### 🐺 [Fenrir](https://github.com/rafay-byte/fenrir) — LLM Fine-Tuning & Evaluation Framework
+
+An end-to-end framework for parameter-efficient fine-tuning (PEFT) on open-source LLMs. Fine-tuned **TinyLlama-1.1B** on domain-specific CLI datasets using **LoRA + QLoRA**, followed by structured side-by-side evaluation against baseline responses.
+
+<div align="center">
+  <img src="assets/fenrir-pipeline.svg" alt="Fenrir Fine-Tuning Pipeline" width="100%"/>
+</div>
+
+<p align="center">
+  <code>Python</code> &bull; <code>PyTorch</code> &bull; <code>HuggingFace Transformers</code> &bull; <code>LoRA / QLoRA</code> &bull; <code>PEFT</code> &bull; <code>RTX 3050 CUDA</code>
+</p>
+
+<div align="center">
+  <a href="https://github.com/rafay-byte/fenrir"><b>View Fenrir &rarr;</b></a>
+</div>
 
 </td>
 </tr>
@@ -60,118 +130,110 @@ Framework for fine-tuning large language models using LoRA adapters with compreh
 <td width="50%" valign="top">
 
 ### 📝 [URDU-OCR](https://github.com/rafay-byte/URDU-OCR)
-**Deep Learning OCR for Urdu Script**
+**Deep Learning OCR for Right-to-Left Urdu Script**
 
-Custom deep learning OCR system for recognizing Urdu text from images. Features CUDA-accelerated training, custom character vocabulary mapping, and training visualization.
+A specialized OCR engine tackling Urdu cursive ligature recognition. Includes custom character-to-index mapping, CUDA training loops, and automated convergence tracking.
 
-`Python` `PyTorch` `CUDA` `OpenCV` `Pandas`
+<div align="center">
+  <img src="assets/urdu_ocr_training.png" alt="Urdu OCR Convergence Graph" width="100%"/>
+</div>
+
+```
+Urdu Image ──▶ Preprocessing ──▶ PyTorch Model ──▶ Urdu Transcription
+```
+
+<p align="center">
+  <code>PyTorch</code> &bull; <code>CUDA</code> &bull; <code>OpenCV</code> &bull; <code>Pandas</code> &bull; <code>TSV Dataset</code>
+</p>
+
+<div align="center">
+  <a href="https://github.com/rafay-byte/URDU-OCR"><b>View URDU-OCR &rarr;</b></a>
+</div>
 
 </td>
 <td width="50%" valign="top">
 
 ### 🌿 [SUGARCANE](https://github.com/rafay-byte/SUGARCANE)
-**YOLOv8 Industrial Bud Detection**
+**YOLOv8 Industrial Bud Cutter Vision System**
 
-Computer vision system using YOLOv8 for real-time sugarcane bud and node detection on automated cutting machinery with a full PyQt5 desktop control station.
-
-`Python` `YOLOv8` `PyTorch` `OpenCV` `PyQt5`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🎭 [SadTalker](https://github.com/rafay-byte/SadTalker)
-**AI Talking Head Animation**
-
-Generates realistic talking head animations from a single portrait image and audio input. Features 3D motion coefficients, GFPGAN face enhancement, and Streamlit/Gradio web apps.
-
-`Python` `PyTorch` `GFPGAN` `Streamlit` `Gradio`
-
-</td>
-<td width="50%" valign="top">
-
-### 🎬 [Frame2Ghibli](https://github.com/rafay-byte/FRAME2GHIBLI)
-**Video-to-Ghibli Style Transfer**
-
-Transforms video footage into Studio Ghibli-style anime using ControlNet Canny edge conditioning, MeinaMix diffusion checkpoint, and CUDA-accelerated post-processing.
-
-`Python` `Stable Diffusion` `ControlNet` `PyTorch` `CUDA`
-
-</td>
-</tr>
-</table>
+Precision computer vision pipeline for automated sugarcane bud cutting machinery. Combines a custom-trained **YOLOv8** model (`bud` &amp; `strip` detection) with a **PyQt5** industrial machine control station with motor and cutter timing triggers.
 
 <div align="center">
-<a href="https://github.com/rafay-byte?tab=repositories"><b>Explore All Projects →</b></a>
+  <img src="assets/sugarcane_sample.jpg" alt="Sugarcane Detection Sample" width="100%"/>
 </div>
 
----
+```
+Camera Feed ──▶ YOLOv8 Detection ──▶ Spatial Coordinates ──▶ PyQt5 Control
+```
 
-## Research & Technical Interests
+<p align="center">
+  <code>Ultralytics YOLOv8</code> &bull; <code>PyQt5</code> &bull; <code>OpenCV</code> &bull; <code>CUDA</code> &bull; <code>Scikit-learn</code>
+</p>
 
-| Domain | Focus Areas |
-|:---|:---|
-| **Large Language Models** | LoRA fine-tuning, evaluation benchmarks, prompt engineering, multi-agent orchestration |
-| **Computer Vision** | Object detection (YOLO), OCR systems, image segmentation, face generation |
-| **Generative AI** | Diffusion models, style transfer, talking head synthesis, text-to-speech |
-| **Multimodal AI** | Vision-language integration, audio-visual synthesis, cross-modal generation |
+<div align="center">
+  <a href="https://github.com/rafay-byte/SUGARCANE"><b>View SUGARCANE &rarr;</b></a>
+</div>
 
----
-
-## Tech Stack
-
-<table>
-<tr>
-<td><b>AI / ML</b></td>
-<td>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white"/>
-<img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black"/>
-<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white"/>
-<img src="https://img.shields.io/badge/YOLO-00FFFF?style=flat&logo=yolo&logoColor=black"/>
-</td>
-</tr>
-<tr>
-<td><b>LLM / GenAI</b></td>
-<td>
-<img src="https://img.shields.io/badge/Transformers-FF6F00?style=flat&logo=huggingface&logoColor=white"/>
-<img src="https://img.shields.io/badge/LoRA-8B5CF6?style=flat"/>
-<img src="https://img.shields.io/badge/Stable_Diffusion-FF4088?style=flat"/>
-<img src="https://img.shields.io/badge/Gradio-F97316?style=flat&logo=gradio&logoColor=white"/>
-</td>
-</tr>
-<tr>
-<td><b>Development</b></td>
-<td>
-<img src="https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white"/>
-<img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white"/>
-<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white"/>
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black"/>
-</td>
-</tr>
-<tr>
-<td><b>Infrastructure</b></td>
-<td>
-<img src="https://img.shields.io/badge/CUDA-76B900?style=flat&logo=nvidia&logoColor=white"/>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white"/>
-<img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white"/>
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white"/>
 </td>
 </tr>
 </table>
 
 ---
 
+## 🧠 AI Domains & Core Specializations
+
+<div align="center">
+  <img src="assets/ai-domains.svg" alt="Core AI Domains" width="100%"/>
+</div>
+
+---
+
+## 🛠️ Technology Ecosystem
+
+<div align="center">
+  <img src="assets/tech-ecosystem.svg" alt="Technology Ecosystem" width="100%"/>
+</div>
+
+---
+
+## 📈 Engineering Journey & Progression
+
+<div align="center">
+  <img src="assets/ai-timeline.svg" alt="AI Engineering Journey" width="100%"/>
+</div>
+
+---
+
+## 📊 GitHub Analytics & Code Activity
+
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=rafay-byte&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&count_private=true" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rafay-byte&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=6" height="165"/>
+<table border="0">
+<tr>
+<td align="center" valign="middle">
+  <img src="https://github-readme-stats.vercel.app/api?username=rafay-byte&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=8B949E" alt="GitHub Stats" width="410"/>
+</td>
+<td align="center" valign="middle">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rafay-byte&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=8B949E" alt="Top Languages" width="370"/>
+</td>
+</tr>
+</table>
 
 </div>
 
 ---
 
 <div align="center">
-<sub>Building AI systems that solve real problems.</sub>
+
+### 💬 Connect &amp; Collaborate
+
+Interested in collaborating on AI research, multi-agent architectures, or computer vision systems?
+
+<a href="https://github.com/rafay-byte"><img src="https://img.shields.io/badge/GitHub-rafay--byte-181717?style=flat-square&logo=github" alt="GitHub"/></a>
+&nbsp;
+<a href="https://github.com/rafay-byte?tab=repositories"><img src="https://img.shields.io/badge/All_Repositories-29_Projects-1f6feb?style=flat-square" alt="Repositories"/></a>
+
+<br/><br/>
+<sub>Designed &amp; Built with precision by <a href="https://github.com/rafay-byte">Abdul Rafay Khalid</a></sub>
+
 </div>

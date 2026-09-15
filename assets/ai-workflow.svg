@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 130" width="100%" height="130" fill="none">
+  <defs>
+    <linearGradient id="grad-border" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#bc8cff" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#39c5bb" stop-opacity="0.8"/>
+    </linearGradient>
+    <linearGradient id="node-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="blue-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="100%" stop-color="#1f6feb"/>
+    </linearGradient>
+    <linearGradient id="purple-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#bc8cff"/>
+      <stop offset="100%" stop-color="#8957e5"/>
+    </linearGradient>
+    <linearGradient id="cyan-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#39c5bb"/>
+      <stop offset="100%" stop-color="#1b7c83"/>
+    </linearGradient>
+    <linearGradient id="green-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3fb950"/>
+      <stop offset="100%" stop-color="#238636"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Container Box -->
+  <rect x="2" y="2" width="846" height="126" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+  <rect x="2" y="2" width="846" height="4" rx="2" fill="url(#grad-border)"/>
+
+  <!-- Subtitle Header -->
+  <text x="30" y="25" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="1.5">END-TO-END AI ENGINEERING LIFECYCLE</text>
+
+  <!-- Step 1: RAW DATA -->
+  <g transform="translate(25, 42)">
+    <rect width="130" height="66" rx="8" fill="url(#node-glow)" stroke="#30363d" stroke-width="1.2"/>
+    <circle cx="20" cy="22" r="5" fill="#58a6ff"/>
+    <text x="32" y="26" fill="#58a6ff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700">01. INGEST</text>
+    <text x="14" y="44" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">Multimodal Data</text>
+    <text x="14" y="58" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10">Audio • Frames • Market</text>
+  </g>
+
+  <!-- Arrow 1 -->
+  <g transform="translate(162, 70)">
+    <line x1="0" y1="0" x2="20" y2="0" stroke="#58a6ff" stroke-width="2"/>
+    <polygon points="20,-4 26,0 20,4" fill="#58a6ff"/>
+  </g>
+
+  <!-- Step 2: MODELS -->
+  <g transform="translate(195, 42)">
+    <rect width="130" height="66" rx="8" fill="url(#node-glow)" stroke="#30363d" stroke-width="1.2"/>
+    <circle cx="20" cy="22" r="5" fill="#bc8cff"/>
+    <text x="32" y="26" fill="#bc8cff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700">02. TRAIN</text>
+    <text x="14" y="44" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">Neural Adapters</text>
+    <text x="14" y="58" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10">LoRA • PEFT • YOLOv8</text>
+  </g>
+
+  <!-- Arrow 2 -->
+  <g transform="translate(332, 70)">
+    <line x1="0" y1="0" x2="20" y2="0" stroke="#bc8cff" stroke-width="2"/>
+    <polygon points="20,-4 26,0 20,4" fill="#bc8cff"/>
+  </g>
+
+  <!-- Step 3: INTELLIGENCE -->
+  <g transform="translate(365, 42)">
+    <rect width="130" height="66" rx="8" fill="url(#node-glow)" stroke="#30363d" stroke-width="1.2"/>
+    <circle cx="20" cy="22" r="5" fill="#39c5bb"/>
+    <text x="32" y="26" fill="#39c5bb" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700">03. REASON</text>
+    <text x="14" y="44" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">Agentic Debate</text>
+    <text x="14" y="58" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10">Bull vs Bear • Research</text>
+  </g>
+
+  <!-- Arrow 3 -->
+  <g transform="translate(502, 70)">
+    <line x1="0" y1="0" x2="20" y2="0" stroke="#39c5bb" stroke-width="2"/>
+    <polygon points="20,-4 26,0 20,4" fill="#39c5bb"/>
+  </g>
+
+  <!-- Step 4: RISK & CONTROLS -->
+  <g transform="translate(535, 42)">
+    <rect width="130" height="66" rx="8" fill="url(#node-glow)" stroke="#30363d" stroke-width="1.2"/>
+    <circle cx="20" cy="22" r="5" fill="#e3b341"/>
+    <text x="32" y="26" fill="#e3b341" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700">04. SAFEGUARD</text>
+    <text x="14" y="44" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">Deterministic Risk</text>
+    <text x="14" y="58" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10">Zero-LLM Authority</text>
+  </g>
+
+  <!-- Arrow 4 -->
+  <g transform="translate(672, 70)">
+    <line x1="0" y1="0" x2="20" y2="0" stroke="#3fb950" stroke-width="2"/>
+    <polygon points="20,-4 26,0 20,4" fill="#3fb950"/>
+  </g>
+
+  <!-- Step 5: PRODUCTION SYSTEM -->
+  <g transform="translate(705, 42)">
+    <rect width="120" height="66" rx="8" fill="url(#node-glow)" stroke="#238636" stroke-width="1.2"/>
+    <circle cx="18" cy="22" r="5" fill="#3fb950"/>
+    <text x="28" y="26" fill="#3fb950" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700">05. DEPLOY</text>
+    <text x="12" y="44" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">Production AI</text>
+    <text x="12" y="58" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10">APIs • UIs • Robots</text>
+  </g>
+</svg>

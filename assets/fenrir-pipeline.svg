@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 155" width="100%" height="155" fill="none">
+  <defs>
+    <linearGradient id="fenrir-header" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#bc8cff"/>
+      <stop offset="100%" stop-color="#58a6ff"/>
+    </linearGradient>
+    <linearGradient id="fenrir-card" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Container -->
+  <rect x="2" y="2" width="846" height="151" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1.2"/>
+  <rect x="2" y="2" width="846" height="3" rx="1.5" fill="url(#fenrir-header)"/>
+
+  <!-- Header -->
+  <text x="25" y="24" fill="#bc8cff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="1.2">FENRIR • PARAMETER-EFFICIENT LLM FINE-TUNING &amp; BENCHMARK PIPELINE</text>
+
+  <!-- Stage 1: Base & Dataset -->
+  <g transform="translate(25, 38)">
+    <rect width="170" height="95" rx="6" fill="url(#fenrir-card)" stroke="#30363d" stroke-width="1"/>
+    <circle cx="16" cy="18" r="4" fill="#58a6ff"/>
+    <text x="26" y="22" fill="#58a6ff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700">BASE &amp; DATASET</text>
+    <text x="14" y="44" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">TinyLlama-1.1B-Chat</text>
+    <text x="14" y="60" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10">150+ CLI Q&amp;A Pairs</text>
+    <text x="14" y="74" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10">Git, Bash, Tar, Grep</text>
+  </g>
+
+  <!-- Arrow 1 -->
+  <g transform="translate(205, 82)">
+    <line x1="0" y1="0" x2="20" y2="0" stroke="#bc8cff" stroke-width="1.8"/>
+    <polygon points="20,-4 26,0 20,4" fill="#bc8cff"/>
+  </g>
+
+  <!-- Stage 2: LoRA / QLoRA Tuning -->
+  <g transform="translate(235, 38)">
+    <rect width="180" height="95" rx="6" fill="url(#fenrir-card)" stroke="#bc8cff" stroke-width="1.2"/>
+    <circle cx="16" cy="18" r="4" fill="#bc8cff"/>
+    <text x="26" y="22" fill="#bc8cff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700">LORA / QLORA PEFT</text>
+    <text x="14" y="44" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">Train Adapter Weights</text>
+    <text x="14" y="60" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10">Rank r=8, Alpha=16</text>
+    <text x="14" y="74" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10">RTX 3050 6GB • ~20 min</text>
+  </g>
+
+  <!-- Arrow 2 -->
+  <g transform="translate(425, 82)">
+    <line x1="0" y1="0" x2="20" y2="0" stroke="#bc8cff" stroke-width="1.8"/>
+    <polygon points="20,-4 26,0 20,4" fill="#bc8cff"/>
+  </g>
+
+  <!-- Stage 3: Dual Evaluation -->
+  <g transform="translate(455, 38)">
+    <rect width="175" height="95" rx="6" fill="url(#fenrir-card)" stroke="#30363d" stroke-width="1"/>
+    <circle cx="16" cy="18" r="4" fill="#39c5bb"/>
+    <text x="26" y="22" fill="#39c5bb" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700">DUAL EVALUATION</text>
+    <text x="14" y="44" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">Base vs. Fine-Tuned</text>
+    <text x="14" y="60" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10">evaluate_base.py</text>
+    <text x="14" y="74" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10">evaluate_lora.py</text>
+  </g>
+
+  <!-- Arrow 3 -->
+  <g transform="translate(640, 82)">
+    <line x1="0" y1="0" x2="20" y2="0" stroke="#3fb950" stroke-width="1.8"/>
+    <polygon points="20,-4 26,0 20,4" fill="#3fb950"/>
+  </g>
+
+  <!-- Stage 4: Benchmark Reports -->
+  <g transform="translate(670, 38)">
+    <rect width="150" height="95" rx="6" fill="url(#fenrir-card)" stroke="#238636" stroke-width="1.2"/>
+    <circle cx="16" cy="18" r="4" fill="#3fb950"/>
+    <text x="26" y="22" fill="#3fb950" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700">VERIFIED REPORT</text>
+    <text x="14" y="44" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">report.md Output</text>
+    <text x="14" y="60" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10">Per-prompt side-by-side</text>
+    <text x="14" y="74" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10">Quality verification</text>
+  </g>
+</svg>

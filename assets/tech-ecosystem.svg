@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 145" width="100%" height="145" fill="none">
+  <defs>
+    <linearGradient id="tech-card" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Cluster 1: Deep Learning & Vision Core -->
+  <g transform="translate(0, 0)">
+    <rect width="270" height="145" rx="8" fill="url(#tech-card)" stroke="#30363d" stroke-width="1.2"/>
+    <rect x="0" y="0" width="270" height="3" rx="1.5" fill="#58a6ff"/>
+    <text x="20" y="26" fill="#58a6ff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="1">DEEP LEARNING &amp; VISION CORE</text>
+    
+    <g transform="translate(18, 44)">
+      <rect width="105" height="26" rx="4" fill="#1f6feb" fill-opacity="0.18" stroke="#388bfd" stroke-width="0.8"/>
+      <text x="10" y="17" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">🐍 Python 3.10+</text>
+
+      <rect x="115" width="115" height="26" rx="4" fill="#1f6feb" fill-opacity="0.18" stroke="#388bfd" stroke-width="0.8"/>
+      <text x="125" y="17" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">🔥 PyTorch</text>
+
+      <rect y="36" width="105" height="26" rx="4" fill="#1f6feb" fill-opacity="0.18" stroke="#388bfd" stroke-width="0.8"/>
+      <text x="10" y="53" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">⚡ CUDA (GPU)</text>
+
+      <rect x="115" y="36" width="115" height="26" rx="4" fill="#1f6feb" fill-opacity="0.18" stroke="#388bfd" stroke-width="0.8"/>
+      <text x="125" y="53" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">👁️ YOLOv8</text>
+
+      <rect y="68" width="105" height="26" rx="4" fill="#1f6feb" fill-opacity="0.18" stroke="#388bfd" stroke-width="0.8"/>
+      <text x="10" y="85" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">📷 OpenCV</text>
+
+      <rect x="115" y="68" width="115" height="26" rx="4" fill="#1f6feb" fill-opacity="0.18" stroke="#388bfd" stroke-width="0.8"/>
+      <text x="125" y="85" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">🔢 NumPy / Pandas</text>
+    </g>
+  </g>
+
+  <!-- Cluster 2: Generative AI & Fine-Tuning -->
+  <g transform="translate(290, 0)">
+    <rect width="270" height="145" rx="8" fill="url(#tech-card)" stroke="#30363d" stroke-width="1.2"/>
+    <rect x="0" y="0" width="270" height="3" rx="1.5" fill="#bc8cff"/>
+    <text x="20" y="26" fill="#bc8cff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="1">GENERATIVE AI &amp; ADAPTERS</text>
+    
+    <g transform="translate(18, 44)">
+      <rect width="105" height="26" rx="4" fill="#8957e5" fill-opacity="0.18" stroke="#a371f7" stroke-width="0.8"/>
+      <text x="10" y="17" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">🤗 Transformers</text>
+
+      <rect x="115" width="115" height="26" rx="4" fill="#8957e5" fill-opacity="0.18" stroke="#a371f7" stroke-width="0.8"/>
+      <text x="125" y="17" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">🎨 Stable Diffusion</text>
+
+      <rect y="36" width="105" height="26" rx="4" fill="#8957e5" fill-opacity="0.18" stroke="#a371f7" stroke-width="0.8"/>
+      <text x="10" y="53" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">🎯 LoRA / QLoRA</text>
+
+      <rect x="115" y="36" width="115" height="26" rx="4" fill="#8957e5" fill-opacity="0.18" stroke="#a371f7" stroke-width="0.8"/>
+      <text x="125" y="53" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">🕹️ ControlNet</text>
+
+      <rect y="68" width="105" height="26" rx="4" fill="#8957e5" fill-opacity="0.18" stroke="#a371f7" stroke-width="0.8"/>
+      <text x="10" y="85" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">✨ GFPGAN</text>
+
+      <rect x="115" y="68" width="115" height="26" rx="4" fill="#8957e5" fill-opacity="0.18" stroke="#a371f7" stroke-width="0.8"/>
+      <text x="125" y="85" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">🤖 Multi-Agent / MCP</text>
+    </g>
+  </g>
+
+  <!-- Cluster 3: Systems & Engineering -->
+  <g transform="translate(580, 0)">
+    <rect width="270" height="145" rx="8" fill="url(#tech-card)" stroke="#30363d" stroke-width="1.2"/>
+    <rect x="0" y="0" width="270" height="3" rx="1.5" fill="#39c5bb"/>
+    <text x="20" y="26" fill="#39c5bb" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="1">SYSTEMS &amp; PRODUCTION</text>
+    
+    <g transform="translate(18, 44)">
+      <rect width="105" height="26" rx="4" fill="#1b7c83" fill-opacity="0.18" stroke="#39c5bb" stroke-width="0.8"/>
+      <text x="10" y="17" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">⚡ FastAPI / Flask</text>
+
+      <rect x="115" width="115" height="26" rx="4" fill="#1b7c83" fill-opacity="0.18" stroke="#39c5bb" stroke-width="0.8"/>
+      <text x="125" y="17" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">🖥️ PyQt5 Desktop</text>
+
+      <rect y="36" width="105" height="26" rx="4" fill="#1b7c83" fill-opacity="0.18" stroke="#39c5bb" stroke-width="0.8"/>
+      <text x="10" y="53" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">🎈 Streamlit / Gradio</text>
+
+      <rect x="115" y="36" width="115" height="26" rx="4" fill="#1b7c83" fill-opacity="0.18" stroke="#39c5bb" stroke-width="0.8"/>
+      <text x="125" y="53" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">🐳 Docker / Cog</text>
+
+      <rect y="68" width="105" height="26" rx="4" fill="#1b7c83" fill-opacity="0.18" stroke="#39c5bb" stroke-width="0.8"/>
+      <text x="10" y="85" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">🐧 Linux / Bash</text>
+
+      <rect x="115" y="68" width="115" height="26" rx="4" fill="#1b7c83" fill-opacity="0.18" stroke="#39c5bb" stroke-width="0.8"/>
+      <text x="125" y="85" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">📈 Alpaca API</text>
+    </g>
+  </g>
+</svg>
