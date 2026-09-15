@@ -1,84 +1,177 @@
-# 👋 Hello there! I'm Abdul Rafay Khalid 🚀
-
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00FF99&center=true&vCenter=true&width=600&lines=BS+AI+Student+@+PAF-IAST;Python+Enthusiast+%26+ML+Explorer;LLM+%26+Chatbot+Developer" alt="Typing SVG" />
+
+<!-- HERO SECTION -->
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=32&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=80&lines=Abdul+Rafay+Khalid" alt="Name" />
+
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=20&duration=3000&pause=1500&color=8B949E&center=true&vCenter=true&repeat=true&width=600&height=35&lines=AI%2FML+Engineer;Building+Intelligent+Systems+with+LLMs+%26+Computer+Vision;Multi-Agent+AI+%7C+Generative+AI+%7C+Deep+Learning" alt="Typing SVG" />
+
+<br/>
+
+`LLMs` · `Computer Vision` · `Generative AI` · `Multi-Agent Systems` · `Deep Learning`
+
+<br/>
+
+<a href="https://github.com/rafay-byte"><img src="https://img.shields.io/badge/GitHub-rafay--byte-181717?style=flat&logo=github" alt="GitHub"/></a>
+
 </div>
 
 <br/>
 
+## About
+
+AI/ML Engineer focused on building production-ready intelligent systems. I work across the full AI stack — from fine-tuning large language models with LoRA adapters to training YOLO-based computer vision pipelines and building multi-agent architectures that reason, debate, and execute autonomously.
+
+My work spans **LLM fine-tuning & evaluation**, **computer vision** (OCR, object detection, segmentation), **generative AI** (style transfer, talking head synthesis, diffusion models), and **multi-agent AI systems** with real-world API integrations.
+
+---
+
+## Currently Building
+
+🔬 **Multi-Agent AI Systems** — Designing autonomous agent architectures where multiple LLM-powered agents collaborate through structured debate, risk analysis, and decision-making pipelines. Recent work: [AlphaGuard](https://github.com/rafay-byte/alphaguard) — an 8-agent AI Investment Committee with deterministic risk controls and live trading execution.
+
+---
+
+## Featured Projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🛡️ [AlphaGuard](https://github.com/rafay-byte/alphaguard)
+**Multi-Agent AI Trading Platform**
+
+8-agent AI Investment Committee that researches markets, debates trade thesis (bull vs. bear), enforces deterministic risk controls, and executes options trades via Alpaca API.
+
+`Python` `LLMs` `Multi-Agent` `Flask` `Alpaca API` `MCP`
+
+</td>
+<td width="50%" valign="top">
+
+### 🐺 [Fenrir](https://github.com/rafay-byte/fenrir)
+**LLM Fine-Tuning & Evaluation Framework**
+
+Framework for fine-tuning large language models using LoRA adapters with comprehensive benchmarking — compares base vs. fine-tuned model performance across evaluation suites.
+
+`Python` `PyTorch` `Transformers` `LoRA` `PEFT`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📝 [URDU-OCR](https://github.com/rafay-byte/URDU-OCR)
+**Deep Learning OCR for Urdu Script**
+
+Custom deep learning OCR system for recognizing Urdu text from images. Features CUDA-accelerated training, custom character vocabulary mapping, and training visualization.
+
+`Python` `PyTorch` `CUDA` `OpenCV` `Pandas`
+
+</td>
+<td width="50%" valign="top">
+
+### 🌿 [SUGARCANE](https://github.com/rafay-byte/SUGARCANE)
+**YOLO-Based Disease Detection**
+
+Computer vision system for detecting and classifying sugarcane diseases using YOLOv8 with custom dataset processing pipelines and a Streamlit-based inference UI.
+
+`Python` `YOLOv8` `OpenCV` `PyTorch` `Streamlit`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🎭 [SadTalker](https://github.com/rafay-byte/SadTalker)
+**AI Talking Head Animation**
+
+Generates realistic talking head animations from a single portrait image and audio input. Integrates GFPGAN for face enhancement and provides a Gradio-based UI.
+
+`Python` `PyTorch` `OpenCV` `GFPGAN` `Gradio`
+
+</td>
+<td width="50%" valign="top">
+
+### 🎬 [Frame2Ghibli](https://github.com/rafay-byte/FRAME2GHIBLI)
+**Video-to-Ghibli Style Transfer**
+
+Transforms video frames into Studio Ghibli-style artwork using the MeinaMix diffusion model — extracts frames, generates art, and reconstructs the final video.
+
+`Python` `Stable Diffusion` `PyTorch` `OpenCV` `PIL`
+
+</td>
+</tr>
+</table>
+
 <div align="center">
-  <a href="https://github.com/rafay-byte"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
+<a href="https://github.com/rafay-byte?tab=repositories"><b>Explore All Projects →</b></a>
 </div>
 
 ---
 
-## 🛠️ Tech Stack & Skills
+## Research & Technical Interests
 
-<details>
-<summary><b>🔥 AI & Machine Learning</b></summary>
-<br/>
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
-<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" />
-<img src="https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=Keras&logoColor=white" />
-<img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=white" />
-<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
-<img src="https://img.shields.io/badge/YOLO-00FFFF?style=flat-square&logo=yolo&logoColor=black" />
-</details>
-
-<details>
-<summary><b>💻 Languages & Frameworks</b></summary>
-<br/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
-<img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" />
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
-</details>
+| Domain | Focus Areas |
+|:---|:---|
+| **Large Language Models** | LoRA fine-tuning, evaluation benchmarks, prompt engineering, multi-agent orchestration |
+| **Computer Vision** | Object detection (YOLO), OCR systems, image segmentation, face generation |
+| **Generative AI** | Diffusion models, style transfer, talking head synthesis, text-to-speech |
+| **Multimodal AI** | Vision-language integration, audio-visual synthesis, cross-modal generation |
 
 ---
 
-## 🌟 Featured Projects Overview
+## Tech Stack
 
-I've developed a variety of AI, automation, and computer vision tools. Here is a full list of my projects:
+<table>
+<tr>
+<td><b>AI / ML</b></td>
+<td>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white"/>
+<img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black"/>
+<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white"/>
+<img src="https://img.shields.io/badge/YOLO-00FFFF?style=flat&logo=yolo&logoColor=black"/>
+</td>
+</tr>
+<tr>
+<td><b>LLM / GenAI</b></td>
+<td>
+<img src="https://img.shields.io/badge/Transformers-FF6F00?style=flat&logo=huggingface&logoColor=white"/>
+<img src="https://img.shields.io/badge/LoRA-8B5CF6?style=flat"/>
+<img src="https://img.shields.io/badge/Stable_Diffusion-FF4088?style=flat"/>
+<img src="https://img.shields.io/badge/Gradio-F97316?style=flat&logo=gradio&logoColor=white"/>
+</td>
+</tr>
+<tr>
+<td><b>Development</b></td>
+<td>
+<img src="https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white"/>
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white"/>
+<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white"/>
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black"/>
+</td>
+</tr>
+<tr>
+<td><b>Infrastructure</b></td>
+<td>
+<img src="https://img.shields.io/badge/CUDA-76B900?style=flat&logo=nvidia&logoColor=white"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white"/>
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white"/>
+</td>
+</tr>
+</table>
 
-| Project | Language | Description | Stars |
-| :--- | :---: | :--- | :---: |
-| [**YTBOT**](https://github.com/rafay-byte/YTBOT) | Python | A YouTube automation bot for view generation and engagement boosting with proxy support and configurable parameters. | ⭐ 0 |
-| [**vision-stride-journal**](https://github.com/rafay-byte/vision-stride-journal) | TypeScript | A project by rafay-byte | ⭐ 0 |
-| [**URDU-OCR**](https://github.com/rafay-byte/URDU-OCR) | Python | A deep learning-based Optical Character Recognition system for Urdu script with CUDA-accelerated training and audio model integration. | ⭐ 0 |
-| [**Vinti-main-us**](https://github.com/rafay-byte/Vinti-main-us) | TypeScript | A full-stack web application with React frontend, Python backend, PostgreSQL database, and Docker containerization, including a web scrapper module. | ⭐ 0 |
-| [**TikTok-ViewBot-main**](https://github.com/rafay-byte/TikTok-ViewBot-main) | Python | An automated tool for TikTok view generation and social media metrics boosting with proxy support and configurable settings. | ⭐ 0 |
-| [**SUGARCANE**](https://github.com/rafay-byte/SUGARCANE) | Python | A computer vision system for detecting and classifying sugarcane diseases using YOLO object detection with custom dataset processing. | ⭐ 0 |
-| [**Semi_ref2sketch_code-main**](https://github.com/rafay-byte/Semi_ref2sketch_code-main) | Python | A deep learning model for converting reference images to sketch-style drawings using semi-supervised learning techniques. | ⭐ 0 |
-| [**STEPSON**](https://github.com/rafay-byte/STEPSON) | Python | An automated web scraping and data extraction tool for Asian e-commerce platforms with screenshot capture and distribution management. | ⭐ 0 |
-| [**SadTalker**](https://github.com/rafay-byte/SadTalker) | Python | Generate realistic talking head animations from a single portrait image and audio input using deep learning, with GFPGAN face enhancement. | ⭐ 0 |
-| [**INVOICE**](https://github.com/rafay-byte/INVOICE) | Python | An automated invoice parsing and processing system with name extraction and batch processing capabilities. | ⭐ 0 |
-| [**FRAME2GHIBLI**](https://github.com/rafay-byte/FRAME2GHIBLI) | Python | Transform video frames into Studio Ghibli-style artwork using AI models (MeinaMix), with frame extraction, generation, and video reconstruction. | ⭐ 0 |
-| [**FIRE-SMOKE**](https://github.com/rafay-byte/FIRE-SMOKE) | Unknown | FIRE+SMOKE — A Python project | ⭐ 0 |
-| [**fenrir**](https://github.com/rafay-byte/fenrir) | Python | A framework for fine-tuning and evaluating large language models using LoRA adapters, with comprehensive benchmarking and evaluation tools. | ⭐ 0 |
-| [**EV-FINAL**](https://github.com/rafay-byte/EV-FINAL) | Python | EV(FINAL) — A Python project | ⭐ 0 |
-| [**enhanced_unsupervised_segmentation**](https://github.com/rafay-byte/enhanced_unsupervised_segmentation) | Python | Advanced unsupervised image segmentation using contrastive learning and multiscale feature extraction with deep neural networks. | ⭐ 0 |
-| [**emailautoamation**](https://github.com/rafay-byte/emailautoamation) | Python | A Python-based email campaign automation system with integrated web data scraping using Selenium and ChromeDriver. | ⭐ 0 |
-| [**ECHO**](https://github.com/rafay-byte/ECHO) | Python | A feature-rich Discord bot powered by AI, with modular command handling, logging, and intelligent conversation capabilities. | ⭐ 0 |
-| [**CALLER**](https://github.com/rafay-byte/CALLER) | Python | An intelligent call management and automation system built with Flask, featuring Google Cloud integration and structured data models. | ⭐ 0 |
-| [**client-THORDAN**](https://github.com/rafay-byte/client-THORDAN) | Python | client(THORDAN) — A Python project | ⭐ 0 |
-| [**bark**](https://github.com/rafay-byte/bark) | Jupyter Notebook | A transformer-based text-to-audio model capable of generating realistic speech, music, and sound effects. | ⭐ 0 |
-| [**ai_automator_challenge**](https://github.com/rafay-byte/ai_automator_challenge) | Python | An automated task execution system with modular architecture, featuring template-based output generation and batch processing. | ⭐ 0 |
-| [**AI-RENAISSANCE**](https://github.com/rafay-byte/AI-RENAISSANCE) | HTML | A comprehensive AI platform for art generation and creative content, featuring 2FA authentication and API integrations. | ⭐ 0 |
-| [**3D-STUDIO**](https://github.com/rafay-byte/3D-STUDIO) | Python | An AI-powered application for 3D virtual try-on, image-to-text conversion, and inpainting using IP-Adapter and Stable Diffusion models. | ⭐ 0 |
-| [**AI-AVATAR-STUDIO**](https://github.com/rafay-byte/AI-AVATAR-STUDIO) | Python | AI Avatar Creator is a premium Streamlit app that turns images and audio into realistic talking avatars. Features include advanced lip-sync, face enhancement, pose control, and stunning UI with glassmorphism, animations, and responsive design. Powered by PyTorch with full GPU acceleration for fast performance. | ⭐ 0 |
-
-<br/>
+---
 
 <div align="center">
-  <h3>📊 GitHub Stats</h3>
-  <img src="https://github-readme-stats.vercel.app/api?username=rafay-byte&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" height="192px"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rafay-byte&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" height="192px"/>
+
+<img src="https://github-readme-stats.vercel.app/api?username=rafay-byte&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&count_private=true" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rafay-byte&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=6" height="165"/>
+
 </div>
 
-<p align="center">
-  <i>Let's connect and build something awesome!</i>
-</p>
+---
+
+<div align="center">
+<sub>Building AI systems that solve real problems.</sub>
+</div>
