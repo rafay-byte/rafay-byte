@@ -70,11 +70,11 @@ Custom deep learning OCR system for recognizing Urdu text from images. Features 
 <td width="50%" valign="top">
 
 ### 🌿 [SUGARCANE](https://github.com/rafay-byte/SUGARCANE)
-**YOLO-Based Disease Detection**
+**YOLOv8 Industrial Bud Detection**
 
-Computer vision system for detecting and classifying sugarcane diseases using YOLOv8 with custom dataset processing pipelines and a Streamlit-based inference UI.
+Computer vision system using YOLOv8 for real-time sugarcane bud and node detection on automated cutting machinery with a full PyQt5 desktop control station.
 
-`Python` `YOLOv8` `OpenCV` `PyTorch` `Streamlit`
+`Python` `YOLOv8` `PyTorch` `OpenCV` `PyQt5`
 
 </td>
 </tr>
@@ -84,9 +84,9 @@ Computer vision system for detecting and classifying sugarcane diseases using YO
 ### 🎭 [SadTalker](https://github.com/rafay-byte/SadTalker)
 **AI Talking Head Animation**
 
-Generates realistic talking head animations from a single portrait image and audio input. Integrates GFPGAN for face enhancement and provides a Gradio-based UI.
+Generates realistic talking head animations from a single portrait image and audio input. Features 3D motion coefficients, GFPGAN face enhancement, and Streamlit/Gradio web apps.
 
-`Python` `PyTorch` `OpenCV` `GFPGAN` `Gradio`
+`Python` `PyTorch` `GFPGAN` `Streamlit` `Gradio`
 
 </td>
 <td width="50%" valign="top">
@@ -94,9 +94,9 @@ Generates realistic talking head animations from a single portrait image and aud
 ### 🎬 [Frame2Ghibli](https://github.com/rafay-byte/FRAME2GHIBLI)
 **Video-to-Ghibli Style Transfer**
 
-Transforms video frames into Studio Ghibli-style artwork using the MeinaMix diffusion model — extracts frames, generates art, and reconstructs the final video.
+Transforms video footage into Studio Ghibli-style anime using ControlNet Canny edge conditioning, MeinaMix diffusion checkpoint, and CUDA-accelerated post-processing.
 
-`Python` `Stable Diffusion` `PyTorch` `OpenCV` `PIL`
+`Python` `Stable Diffusion` `ControlNet` `PyTorch` `CUDA`
 
 </td>
 </tr>
