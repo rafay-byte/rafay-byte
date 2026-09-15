@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 230" width="100%" height="230" fill="none">
+  <defs>
+    <linearGradient id="hero-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c1017"/>
+      <stop offset="60%" stop-color="#111620"/>
+      <stop offset="100%" stop-color="#090d13"/>
+    </linearGradient>
+    <linearGradient id="hero-glow-line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="35%" stop-color="#bc8cff"/>
+      <stop offset="70%" stop-color="#39c5bb"/>
+      <stop offset="100%" stop-color="#3fb950"/>
+    </linearGradient>
+    <linearGradient id="node-box" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1f242c"/>
+      <stop offset="100%" stop-color="#12161d"/>
+    </linearGradient>
+    <linearGradient id="hub-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f6feb" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#8957e5" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Panel -->
+  <rect x="2" y="2" width="876" height="226" rx="14" fill="url(#hero-bg)" stroke="#30363d" stroke-width="1.5"/>
+  <rect x="2" y="2" width="876" height="4" rx="2" fill="url(#hero-glow-line)"/>
+
+  <!-- Left Side: Identity & Positioning -->
+  <g transform="translate(36, 36)">
+    <!-- Status Beacon -->
+    <circle cx="6" cy="6" r="4" fill="#3fb950"/>
+    <circle cx="6" cy="6" r="7" stroke="#3fb950" stroke-width="1" stroke-opacity="0.4"/>
+    <text x="20" y="9.5" fill="#3fb950" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" letter-spacing="1.5">AI / ML RESEARCH &amp; SYSTEMS</text>
+
+    <!-- Name & Title -->
+    <text x="0" y="46" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="800" letter-spacing="0.5">ABDUL RAFAY KHALID</text>
+    <text x="0" y="74" fill="#58a6ff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700" letter-spacing="1.2">AI / ML ENGINEER</text>
+
+    <!-- Core Pitch -->
+    <text x="0" y="104" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500">Architecting production systems across Multi-Agent reasoning,</text>
+    <text x="0" y="122" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500">LLM fine-tuning (LoRA/QLoRA), and generative vision.</text>
+
+    <!-- Tech Badges Line -->
+    <g transform="translate(0, 142)">
+      <rect width="66" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <text x="8" y="15" fill="#58a6ff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600">PyTorch</text>
+
+      <rect x="74" width="76" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <text x="82" y="15" fill="#76b900" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600">CUDA GPU</text>
+
+      <rect x="158" width="86" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <text x="166" y="15" fill="#bc8cff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600">LoRA / PEFT</text>
+
+      <rect x="252" width="62" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <text x="260" y="15" fill="#39c5bb" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600">YOLOv8</text>
+
+      <rect x="322" width="70" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <text x="330" y="15" fill="#e3b341" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600">Agents</text>
+    </g>
+  </g>
+
+  <!-- Right Side: AI System Node Graph (Interactive/Visual feel) -->
+  <g transform="translate(470, 24)">
+    <!-- Node 1: LLMs -->
+    <g transform="translate(10, 20)">
+      <rect width="105" height="38" rx="6" fill="url(#node-box)" stroke="#58a6ff" stroke-width="1.2"/>
+      <circle cx="14" cy="19" r="3.5" fill="#58a6ff"/>
+      <text x="24" y="23" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700">🧠 LLMs</text>
+    </g>
+
+    <!-- Node 2: VISION -->
+    <g transform="translate(10, 78)">
+      <rect width="105" height="38" rx="6" fill="url(#node-box)" stroke="#39c5bb" stroke-width="1.2"/>
+      <circle cx="14" cy="19" r="3.5" fill="#39c5bb"/>
+      <text x="24" y="23" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700">👁️ VISION</text>
+    </g>
+
+    <!-- Node 3: GenAI -->
+    <g transform="translate(10, 136)">
+      <rect width="105" height="38" rx="6" fill="url(#node-box)" stroke="#bc8cff" stroke-width="1.2"/>
+      <circle cx="14" cy="19" r="3.5" fill="#bc8cff"/>
+      <text x="24" y="23" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700">🎨 GenAI</text>
+    </g>
+
+    <!-- Connecting Path: LLMs -> AGENTS -->
+    <path d="M 115 39 L 155 39" stroke="#58a6ff" stroke-width="1.5"/>
+    <polygon points="155,39 149,36 149,42" fill="#58a6ff"/>
+
+    <!-- Node: AGENTS -->
+    <g transform="translate(155, 20)">
+      <rect width="100" height="38" rx="6" fill="url(#node-box)" stroke="#bc8cff" stroke-width="1.2"/>
+      <circle cx="14" cy="19" r="3.5" fill="#bc8cff"/>
+      <text x="24" y="23" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700">🤖 AGENTS</text>
+    </g>
+
+    <!-- Connecting paths to Central Core (AI SYSTEMS) -->
+    <!-- From AGENTS to AI SYSTEMS -->
+    <path d="M 205 58 L 205 78" stroke="#bc8cff" stroke-width="1.5"/>
+    <polygon points="205,78 202,72 208,72" fill="#bc8cff"/>
+
+    <!-- From VISION to AI SYSTEMS -->
+    <path d="M 115 97 L 155 97" stroke="#39c5bb" stroke-width="1.5"/>
+    <polygon points="155,97 149,94 149,100" fill="#39c5bb"/>
+
+    <!-- Central Node: AI SYSTEMS CORE -->
+    <g transform="translate(155, 78)">
+      <rect width="100" height="38" rx="6" fill="url(#hub-glow)" stroke="#58a6ff" stroke-width="1.5"/>
+      <circle cx="14" cy="19" r="3.5" fill="#58a6ff"/>
+      <text x="24" y="23" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="800">⚡ SYSTEMS</text>
+    </g>
+
+    <!-- From GenAI to PRODUCTS -->
+    <path d="M 115 155 L 285 155" stroke="#bc8cff" stroke-width="1.5"/>
+    <polygon points="285,155 279,152 279,158" fill="#bc8cff"/>
+
+    <!-- From AI SYSTEMS to PRODUCTS -->
+    <path d="M 255 97 L 285 97 L 285 136" stroke="#3fb950" stroke-width="1.5"/>
+    <polygon points="285,136 282,130 288,130" fill="#3fb950"/>
+
+    <!-- Terminal Node: PRODUCTS / DEPLOY -->
+    <g transform="translate(260, 136)">
+      <rect width="115" height="38" rx="6" fill="url(#node-box)" stroke="#3fb950" stroke-width="1.5"/>
+      <circle cx="14" cy="19" r="3.5" fill="#3fb950"/>
+      <text x="24" y="23" fill="#3fb950" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="800">🚀 PRODUCTION</text>
+    </g>
+  </g>
+</svg>
