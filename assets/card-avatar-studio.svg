@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 185" width="100%" height="185" fill="none">
+  <defs>
+    <linearGradient id="card-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#121720"/>
+      <stop offset="100%" stop-color="#0a0e14"/>
+    </linearGradient>
+    <linearGradient id="card-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ab7df8"/>
+      <stop offset="100%" stop-color="#f778ba"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    @keyframes pulse-dot { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
+    .status-dot { animation: pulse-dot 2s infinite ease-in-out; }
+    .mono { font-family: 'SF Mono', 'Fira Code', 'Roboto Mono', Menlo, Consolas, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif; }
+  </style>
+
+  <!-- Container -->
+  <rect x="2" y="2" width="426" height="181" rx="10" fill="url(#card-bg)" stroke="#30363d" stroke-width="1.2"/>
+  <rect x="2" y="2" width="426" height="3" rx="1.5" fill="url(#card-accent)"/>
+
+  <!-- Top Metadata -->
+  <circle cx="24" cy="25" r="4" fill="#3fb950" class="status-dot"/>
+  <text x="36" y="29" fill="#f778ba" class="mono" font-size="11.5" font-weight="700">05 // GENERATIVE AI</text>
+  <text x="406" y="29" fill="#8b949e" class="mono" font-size="10.5" font-weight="600" text-anchor="end">ONLINE</text>
+
+  <!-- Project Name -->
+  <text x="24" y="66" fill="#ffffff" class="sans" font-size="21" font-weight="800" letter-spacing="0.5">AI-AVATAR-STUDIO</text>
+
+  <!-- One-Line Description -->
+  <text x="24" y="96" fill="#8b949e" class="sans" font-size="13">Audio-driven talking head generator with facial super-resolution</text>
+
+  <!-- Tech Tags -->
+  <g transform="translate(24, 114)">
+    <rect x="0" y="0" width="66" height="22" rx="4" fill="#161b22" stroke="#30363d"/>
+    <text x="33" y="15" fill="#c9d1d9" class="mono" font-size="11" text-anchor="middle">PyTorch</text>
+
+    <rect x="74" y="0" width="72" height="22" rx="4" fill="#161b22" stroke="#30363d"/>
+    <text x="110" y="15" fill="#c9d1d9" class="mono" font-size="11" text-anchor="middle">Streamlit</text>
+
+    <rect x="154" y="0" width="68" height="22" rx="4" fill="#161b22" stroke="#30363d"/>
+    <text x="188" y="15" fill="#c9d1d9" class="mono" font-size="11" text-anchor="middle">GFPGAN</text>
+
+    <rect x="230" y="0" width="74" height="22" rx="4" fill="#161b22" stroke="#30363d"/>
+    <text x="267" y="15" fill="#c9d1d9" class="mono" font-size="11" text-anchor="middle">Wav2Vec</text>
+  </g>
+
+  <!-- Divider -->
+  <line x1="24" y1="148" x2="406" y2="148" stroke="#21262d" stroke-width="1"/>
+
+  <!-- Footer Link -->
+  <text x="24" y="168" fill="#f778ba" class="mono" font-size="11.5" font-weight="700">VIEW REPOSITORY &rarr;</text>
+  <text x="406" y="168" fill="#6e7681" class="mono" font-size="10.5" text-anchor="end">rafay-byte/AI-AVATAR-STUDIO</text>
+</svg>
